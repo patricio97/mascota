@@ -3,7 +3,7 @@ package com.mascota.mascota.model;
 public class UsuarioMascota {
     //perfil mascota
     private int id;
-    private String nombreUsu;
+    private String username;
     private String nombreMasc;
     // perfil conductor
     private int idconductor;
@@ -11,9 +11,9 @@ public class UsuarioMascota {
 
 
 
-    public UsuarioMascota(int id, String nombreUsu, String nombreMasc, int idconductor, String nombreConductor){
+    public UsuarioMascota(int id, String username, String nombreMasc, int idconductor, String nombreConductor){
         this.id = id;
-        this.nombreUsu = nombreUsu;
+        this.username = username;
         this.nombreMasc = nombreMasc;
         this.idconductor = idconductor;
         this.nombreConductor = nombreConductor;
@@ -23,8 +23,8 @@ public class UsuarioMascota {
         return id;
     }
     
-    public String getnombreUsu(){
-        return nombreUsu;
+    public String getusername(){
+        return username;
     }
 
     public String getnombreMasc(){
