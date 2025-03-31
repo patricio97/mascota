@@ -19,6 +19,7 @@ public class UsuarioMascotaContoller {
     public UsuarioMascotaContoller() {
         usuariosMascota.add(new UsuarioMascota(1, "Pedro", "Peludo", 1, "Claudio"));
         usuariosMascota.add(new UsuarioMascota(2, "Patricio", "Astrid", 2, "Claudio"));
+        usuariosMascota.add(new UsuarioMascota(3, "Ricardo", "Melodi", 3, "Mauricio"));
     }   
     @GetMapping("/UsuariosMascota")
     public List<UsuarioMascota> getUsuariosMascota() {
